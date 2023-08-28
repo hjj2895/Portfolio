@@ -1,4 +1,44 @@
+.form-container{
+    text-align: center;
+    background-color: white;
+    height: 100vh;
+}
 
+.heading-container{
+    width: 100%;
+    height: 100%;
+  
+}
+
+.second-container{
+    padding: 100px;
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-container h1{
+    font-size: 2.4rem;
+    color: black;
+}
+
+.heading-container p{
+    font-size: 1.4rem;
+    text-align: center;
+    color: black;
+}
+
+@media screen and (max-width: 640px){
+    .heading-container h1{
+        font-size: 2rem;
+    }
+}
 
 label{
     color: white;
@@ -8,18 +48,66 @@ label{
 form{
     display: flex;
     flex-direction: column;
-    padding: 4rem 1rem;
     margin: auto;
     max-width: 600px;
-    
+    height: 100%;
+    background-color: white;
 }
+
+.btn2{
+    padding: 12px 32px;
+    font-size: 1rem;
+    color: black;
+    border: 2px solid black;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn2:hover {
+    background: rgba(0, 0, 0);
+    color: aqua;
+    transition: 0.3s;
+  }
 
 form input, form textarea{
     margin-bottom: 1rem;
     padding: 10px 18px;
     font-size: 1.2rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: white;
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    color: white;
+    color: black;
+}
+
+form textarea{
+    border: 2px solid black;
+}
+
+form input{
+    border: 2px solid black;
+}
+
+.name{
+    margin-top: 30px;
+}
+
+
+.form .linkedin{
+    color: black;
+}
+
+.form .linkedin:hover{
+    color: #0A66C2;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.form .github{
+    color: black;
+}
+
+.form .github:hover{
+    color: #2b3137;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
 }

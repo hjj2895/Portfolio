@@ -5,12 +5,14 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Projects from './routes/Projects';
 import Contact from './routes/Contact';
-import { Route, Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 
 function App() {
   return (
     <>
+    <Navbar />
      <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/about" element={<About/>} />

@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { FaBars, FaTimes } from "react-icons/fa";
+
 
 const Navbar = () => {
 
@@ -10,8 +11,19 @@ const Navbar = () => {
         setClick(!click);
     }
 
+  const location = useLocation();
+  const [backgroundColor, setBackgroundColor] = useState('');
+  
+  useEffect(() => {
+    if (location.pathname !== '/'){
+        setBackgroundColor('#000');
+    }else{
+        setBackgroundColor('')
+    }
+  }, [location.pathname])
+
   return (
-    <div className='header'>
+    <div className='header' style={{ backgroundColor }}>
         <Link to="/">
             <h1>Peter Ji</h1>
         </Link>

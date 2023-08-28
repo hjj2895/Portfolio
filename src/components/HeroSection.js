@@ -4,7 +4,7 @@ import HeroImg from '../assets/heroimg3.jpg';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-
+import Footer from './Footer';
 
 
 const HeroSection = () => {
@@ -29,19 +29,8 @@ const HeroSection = () => {
               <FontAwesomeIcon icon={faGithub} className='github'></FontAwesomeIcon>
               </a>
             </div>
-             {/* <ul className='social-links'>
-              <li>
-             <a href="https://www.linkedin.com/in/peter-ji/" target="_blank">
-              <i class="fab fa-linkedin icon"></i>
-              </a>
-              </li>
-              <li>
-             <a href="https://github.com/hjj2895" target="_blank">
-              <i class="fab fa-github icon"></i>
-             </a>
-             </li>
-            </ul>  */}
         </div>
+        <Footer />
     </div>
   )
 }

@@ -1,0 +1,39 @@
+.about-container{
+    text-align: center;
+    height: 100vh;
+    /* background-color: azure; */
+}
+
+.text-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-container{
+    padding: 100px;
+    padding-bottom: 30px;
+}
+
+.text-container h1{
+    color: #4B7CC5;
+    font-size: 2.4rem;
+    border-bottom: 2px solid grey;
+}
+
+.text-container img{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.text-container p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+}
