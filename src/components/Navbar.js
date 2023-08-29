@@ -16,7 +16,7 @@ const Navbar = () => {
   
   useEffect(() => {
     if (location.pathname !== '/'){
-        setBackgroundColor('#000');
+        setBackgroundColor('rgba(0, 0, 0, 0.5');
     }else{
         setBackgroundColor('')
     }
