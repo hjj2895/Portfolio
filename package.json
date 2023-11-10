@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -25,6 +26,35 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+=======
+  "homepage": "https://hjj2895.github.io/portfolio/",
+  "name": "web-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "font-awesome": "^4.7.0",
+    "framer-motion": "^10.16.1",
+    "gh-pages": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-social-icons": "^5.15.0",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+>>>>>>> b0185ad50ae03b926c612a9d4ba7f718dc3eec2f
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,11 +77,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "@types/react-scroll": "^1.8.9",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3"
+=======
+>>>>>>> b0185ad50ae03b926c612a9d4ba7f718dc3eec2f
   }
 }
